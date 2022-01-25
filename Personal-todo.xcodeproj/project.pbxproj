@@ -11,6 +11,7 @@
 		C7D9CD1927A075D500710F5F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D9CD1827A075D500710F5F /* ContentView.swift */; };
 		C7D9CD1B27A075D600710F5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7D9CD1A27A075D600710F5F /* Assets.xcassets */; };
 		C7D9CD1E27A075D600710F5F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7D9CD1D27A075D600710F5F /* Preview Assets.xcassets */; };
+		C7D9CD2627A0769C00710F5F /* Main.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C7D9CD2427A0769B00710F5F /* Main.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		C7D9CD1827A075D500710F5F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C7D9CD1A27A075D600710F5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C7D9CD1D27A075D600710F5F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C7D9CD2527A0769C00710F5F /* Main.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Main.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				C7D9CD1627A075D500710F5F /* Personal_todoApp.swift */,
 				C7D9CD1827A075D500710F5F /* ContentView.swift */,
+				C7D9CD2427A0769B00710F5F /* Main.xcdatamodeld */,
 				C7D9CD1A27A075D600710F5F /* Assets.xcassets */,
 				C7D9CD1C27A075D600710F5F /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7D9CD2627A0769C00710F5F /* Main.xcdatamodeld in Sources */,
 				C7D9CD1927A075D500710F5F /* ContentView.swift in Sources */,
 				C7D9CD1727A075D500710F5F /* Personal_todoApp.swift in Sources */,
 			);
@@ -339,6 +343,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C7D9CD2427A0769B00710F5F /* Main.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C7D9CD2527A0769C00710F5F /* Main.xcdatamodel */,
+			);
+			currentVersion = C7D9CD2527A0769C00710F5F /* Main.xcdatamodel */;
+			path = Main.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = C7D9CD0B27A075D500710F5F /* Project object */;
 }
