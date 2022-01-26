@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C7AFD96D27A1523200BD017D /* EditItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AFD96C27A1523200BD017D /* EditItemView.swift */; };
+		C7AFD96F27A154A600BD017D /* ItemRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AFD96E27A154A600BD017D /* ItemRowView.swift */; };
 		C7D9CD1727A075D500710F5F /* Personal_todoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D9CD1627A075D500710F5F /* Personal_todoApp.swift */; };
 		C7D9CD1927A075D500710F5F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D9CD1827A075D500710F5F /* ContentView.swift */; };
 		C7D9CD1B27A075D600710F5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7D9CD1A27A075D600710F5F /* Assets.xcassets */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C7AFD96C27A1523200BD017D /* EditItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditItemView.swift; sourceTree = "<group>"; };
+		C7AFD96E27A154A600BD017D /* ItemRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRowView.swift; sourceTree = "<group>"; };
 		C7D9CD1327A075D500710F5F /* Personal-todo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Personal-todo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7D9CD1627A075D500710F5F /* Personal_todoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Personal_todoApp.swift; sourceTree = "<group>"; };
 		C7D9CD1827A075D500710F5F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -87,7 +91,9 @@
 			children = (
 				C7D9CD1827A075D500710F5F /* ContentView.swift */,
 				C7D9CD2B27A07AB900710F5F /* HomeView.swift */,
+				C7AFD96C27A1523200BD017D /* EditItemView.swift */,
 				C7D9CD2D27A07ADA00710F5F /* ProjectsView.swift */,
+				C7AFD96E27A154A600BD017D /* ItemRowView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -183,10 +189,12 @@
 				C7D9CD2627A0769C00710F5F /* Main.xcdatamodeld in Sources */,
 				C7D9CD3327A087B900710F5F /* Project-CoreDataHelpers.swift in Sources */,
 				C7D9CD2827A078BD00710F5F /* DataController.swift in Sources */,
+				C7AFD96F27A154A600BD017D /* ItemRowView.swift in Sources */,
 				C7D9CD1927A075D500710F5F /* ContentView.swift in Sources */,
 				C7D9CD2C27A07AB900710F5F /* HomeView.swift in Sources */,
 				C7D9CD1727A075D500710F5F /* Personal_todoApp.swift in Sources */,
 				C7D9CD3127A086DA00710F5F /* Item-CoreDataHelpers.swift in Sources */,
+				C7AFD96D27A1523200BD017D /* EditItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
