@@ -48,7 +48,11 @@ struct EditItemView: View {
             }
         }
         .navigationTitle("Edit Item")
-        .onDisappear(perform: update)
+        .onChange(of: title) { _ in update() }
+        .onChange(of: detail) { _ in update() }
+        .onChange(of: priority) { _ in update() }
+        .onChange(of: completed) { _ in update() }
+        .onDisappear(perform: dataController.save)
     }
     
     func update() {
@@ -64,5 +68,6 @@ struct EditItemView: View {
 struct EditItemView_Previews: PreviewProvider {
     static var previews: some View {
         EditItemView(item: Item.example)
+            .environmentObject(DataController())
     }
 }
